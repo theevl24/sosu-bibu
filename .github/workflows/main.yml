@@ -5,4 +5,9 @@ jobs:
           runs-on: ubuntu-latest
           steps:
               - name: Print greeting
-                run: echo "Hi, huseos!"
+                run: echo "Hi, huesos!"
+              - name: Print a few lines
+                run: |
+                  echo first line
+                  echo second line
+                  echo third line
